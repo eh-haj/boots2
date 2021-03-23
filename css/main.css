@@ -1,0 +1,30 @@
+.navbar{
+    margin: 0;
+    background: #000;
+    border: 0;
+}
+.carousel-inner .item img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    animation: zoom 10s;
+}
+.carousel-caption{
+    bottom: 40%;
+}
+.carousel-caption h1,p{
+    text-shadow: 5px 5px 3px #000;
+}
+.carousel-caption p{
+    font-weight: bold;
+    font-size: 15px;
+}
+@keyframes zoom{
+    from{ 
+        opacity: 0.2;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
